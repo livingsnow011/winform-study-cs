@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter07_Form\BorderStyle.cs">
+    <Compile Include="Chapter07_Form\EX03_BorderStyle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter07_Form\BorderStyle.Designer.cs">
-      <DependentUpon>BorderStyle.cs</DependentUpon>
+    <Compile Include="Chapter07_Form\EX03_BorderStyle.Designer.cs">
+      <DependentUpon>EX03_BorderStyle.cs</DependentUpon>
     </Compile>
     <Compile Include="Chapter07_Form\EX01_ButtonAndMessageBox.cs">
       <SubType>Form</SubType>
@@ -56,31 +56,31 @@
     <Compile Include="Chapter07_Form\EX01_ButtonAndMessageBox.Designer.cs">
       <DependentUpon>EX01_ButtonAndMessageBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter07_Form\LoadAndClosed.cs">
+    <Compile Include="Chapter07_Form\EX02_LoadAndClosed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter07_Form\LoadAndClosed.Designer.cs">
-      <DependentUpon>LoadAndClosed.cs</DependentUpon>
+    <Compile Include="Chapter07_Form\EX02_LoadAndClosed.Designer.cs">
+      <DependentUpon>EX02_LoadAndClosed.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chapter07_Form\MoveResize.cs">
+    <Compile Include="Chapter07_Form\Ex04_MoveResize.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter07_Form\MoveResize.Designer.cs">
-      <DependentUpon>MoveResize.cs</DependentUpon>
+    <Compile Include="Chapter07_Form\Ex04_MoveResize.Designer.cs">
+      <DependentUpon>Ex04_MoveResize.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Chapter07_Form\BorderStyle.resx">
-      <DependentUpon>BorderStyle.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter07_Form\EX03_BorderStyle.resx">
+      <DependentUpon>EX03_BorderStyle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter07_Form\EX01_ButtonAndMessageBox.resx">
       <DependentUpon>EX01_ButtonAndMessageBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter07_Form\LoadAndClosed.resx">
-      <DependentUpon>LoadAndClosed.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter07_Form\EX02_LoadAndClosed.resx">
+      <DependentUpon>EX02_LoadAndClosed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter07_Form\MoveResize.resx">
-      <DependentUpon>MoveResize.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter07_Form\Ex04_MoveResize.resx">
+      <DependentUpon>Ex04_MoveResize.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
